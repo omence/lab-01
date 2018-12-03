@@ -19,7 +19,6 @@
             background-color: rgb(110, 9, 9);
             box-sizing: border-box;
             border: 1px solid black;
-            float: left;
             line-height: 600px;
         }
         
@@ -38,8 +37,8 @@
             background-color: rgb(128, 128, 128);
             box-sizing: border-box;
             border: 1px solid black;
-            float: left;
             line-height: 250px;
+           
         }
         
         #box2 {
@@ -48,8 +47,8 @@
             background-color: rgb(69, 158, 52);
             box-sizing: border-box;
             border: 1px solid black;
-            float: left;
             line-height: 250px;
+           
         }
     
         #box3 {
@@ -58,8 +57,8 @@
             background-color: rgb(245, 177, 219);
             box-sizing: border-box;
             border: 1px solid black;
-            float: left;
             line-height: 250px;
+           
         }
         
         #box4 {
@@ -68,8 +67,8 @@
             background-color: rgb(217, 240, 212);
             box-sizing: border-box;
             border: 1px solid black;
-            float: left;
             line-height: 250px;
+           
         }
         
         #foot {
@@ -78,9 +77,11 @@
         background-color: rgb(172, 92, 92);
         box-sizing: border-box;
         border: 1px solid black;
-        float: clear;
-        float: left;
         line-height: 150px;
         }
+     .boxes{
+        display: inline-flex;
+
+     }
 
 }

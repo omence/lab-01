@@ -1,8 +1,13 @@
 
+
 @media screen and (max-width: 767px) {
     body {
         margin: auto;
         text-align: center;
+        position: relative;
+    }
+    main{
+        position: relative;
     }
 }
 
@@ -11,5 +16,9 @@
         margin: auto;
         width: 960px;
         text-align: center;
+        position: relative;
+    }
+    main{
+        position: relative;
     }
 }
